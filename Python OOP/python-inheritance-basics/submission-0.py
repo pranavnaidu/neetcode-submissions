@@ -1,0 +1,20 @@
+class SmartDevice:
+    def __init__(self, name: str):
+        self.name = name
+    
+class SmartLight(SmartDevice):
+    def turn_on(self):
+        print(f"{self.name} is turned on")
+        pass
+
+    def turn_off(self):
+        print(f"{self.name} is turned off")
+        pass
+
+# TODO: Implement the SmartLight class
+
+
+# Don't change the code below
+device = SmartLight("Smart Light")
+device.turn_on()
+device.turn_off()
